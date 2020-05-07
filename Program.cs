@@ -21,6 +21,7 @@ namespace Card
       for (var i = 0; i < suits.Count; i++) {
        for (var q = 0; q < ranks.Count; q++)
 
+
         {
           // add the card to the new deck
           // Console.WriteLine($"{Ranks[q]} of {Suits[i]}");
@@ -28,6 +29,7 @@ namespace Card
 
           //newDeck[0] = "two of clubs"
         } 
+
       }
       //while variable newdeck has 52 cards in it,
       // removing/adding card from/to decks until theres 0/52 cards
